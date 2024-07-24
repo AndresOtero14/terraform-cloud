@@ -75,6 +75,7 @@ resource "aws_route_table_association" "crta_public_subnet" {
      to_port = 0
      protocol = "-1"
      cidr_blocks = ["0.0.0.0/0"]
+     ipv6_cidr_blocks = ["::/0"]
      prefix_list_ids = []
      security_groups = []
      self            = false
