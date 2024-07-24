@@ -47,3 +47,11 @@ variable "ingress_puertos_list" {
   type = list(number)
   
 }
+
+variable "acces_key" {
+  
+}
+
+variable "secret_key" {
+  
+}
