@@ -48,7 +48,7 @@ variable "ingress_puertos_list" {
   
 }
 
-variable "acces_key" {
+variable "access_key" {
   
 }
 
